@@ -40,3 +40,5 @@ value, making it effectively [immutable](https://en.wikipedia.org/wiki/Immutable
 
 'Iterable` is a subtype of `Traversable` which is a Scala "trait" meaning the `foreach` method is supported.
 The argument to `foreach` is a function which is called once for each value in the collection.
+
+Run at [TutorialsPoint](http://goo.gl/UqrEgw) in a Linux environment. :warning: Warning: slow link to cloud in India. Needs to spin up a Docker container to host Web IDE.
