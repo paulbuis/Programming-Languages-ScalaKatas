@@ -1,6 +1,6 @@
 object Kata3_0 {
 
-    def fib(n : Int) = {
+    def fib(n : Int) : BigInt = {
         if (n==0) BigInt(0) else if (n==1) BigInt(1) else fib(n-1)+fib(n-2);
     }
     def main(args: Array[String]) : Unit = {
