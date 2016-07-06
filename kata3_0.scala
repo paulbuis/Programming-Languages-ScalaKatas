@@ -10,10 +10,10 @@ object Kata3_0 {
     }
     
     def main(args: Array[String]) : Unit = {
-        println(factorial(0));
-        println(factorial(1));
-        println(factorial(2));
-        println(factorial(3));
-        println(factorial(4));   
+        println(factorial(0))
+        println(factorial(1))
+        println(factorial(2))
+        println(factorial(3))
+        println(factorial(4))   
     }
 }
