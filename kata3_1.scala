@@ -5,7 +5,7 @@ object Kata3_1 {
         for (i <- 1 to n) {
             result *= i
         }
-        result;
+        result
     }
     
     def main(args: Array[String]) : Unit = {
