@@ -24,3 +24,5 @@ but the type `Int` is _inferred_ from the type of the expression on the right ha
 Similarly, the return type of the `readInt()` function is inferred from the type of the expression it returns.
 As in many functional languages, the last expression in a sequence of expressions is the value of the sequence,
 so the return value of function is the last expression in the function body.  
+
+Try this out on [TutorialsPoint](http://goo.gl/sYI6FS) in a Linux environment. (Close any HelloWorld.scala editor and double click on Kata1-0.scala in the file tree).
