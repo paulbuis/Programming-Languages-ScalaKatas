@@ -1,22 +1,19 @@
 object Kata3_0 {
 
-    def fib(n:BigInt):BigInt = {
+    def factorial(n:Int):BigInt = {
         if (n==0) {
-            BigInt(0)
-        }
-        else if (n==1) {
             BigInt(1)
         }
         else {
-            fib(n-1) + fib(n-2)
+            BigInt(n) * factorial(n-1)
         }
     }
     
     def main(args: Array[String]) : Unit = {
-        println(fib(0));
-        println(fib(1));
-        println(fib(2));
-        println(fib(3));
-        println(fib(4));   
+        println(factorial(0));
+        println(factorial(1));
+        println(factorial(2));
+        println(factorial(3));
+        println(factorial(4));   
     }
 }
