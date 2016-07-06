@@ -1,6 +1,6 @@
 object Kata4_0 {
 
-    def fib(n:BigInt):BigInt = {
+    def fib(n : Int) : BigInt = {
         if (n==0) {
             BigInt(0)
         }
