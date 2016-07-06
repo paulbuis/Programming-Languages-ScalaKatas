@@ -1,4 +1,4 @@
-#Kata 1.0
+#Kata 1.1
 
 ```scala
 object Kata1_1 {
