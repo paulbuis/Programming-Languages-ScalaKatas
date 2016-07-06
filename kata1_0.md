@@ -25,4 +25,4 @@ Similarly, the return type of the `readInt()` function is inferred from the type
 As in many functional languages, the last expression in a sequence of expressions is the value of the sequence,
 so the return value of function is the last expression in the function body.  
 
-Try this out on [TutorialsPoint](http://goo.gl/P2Xh6a) in a Linux environment.
+Try this out on [TutorialsPoint](http://goo.gl/mmQtxE) in a Linux environment.
