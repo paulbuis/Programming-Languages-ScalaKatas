@@ -1,5 +1,21 @@
 #Kata 1.0
 
+```scala
+object Kata1_0 {
+    
+    def readInt() = {
+        scala.io.StdIn.readInt();
+    }
+    
+    def main(args: Array[String]) = {
+        val x = readInt();
+        val y = readInt();
+        val z = readInt(); 
+        println( (x+y+z)/3.0 );
+    }
+}
+```
+
 Note assignments to `x`, `y`, and `z`. `val` means identifier may not be on the left hand side of another assignment statement.
 
 Note also that the declarations don't explicitly specify the type of the identifiers `x`, `y`, or `z`. Scala is statically typed,
