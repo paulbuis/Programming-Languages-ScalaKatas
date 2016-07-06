@@ -48,4 +48,4 @@ scala Kata0_0
 scala Kata0_0 Bob
 ```
 
-Go to [TutorialsPoint](http://goo.gl/4SvaIg) to run in a Linux environment with Scala installed.
+Go to [TutorialsPoint](http://goo.gl/hcgksm) to run in a Linux environment with Scala installed.
