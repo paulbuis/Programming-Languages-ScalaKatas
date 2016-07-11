@@ -4,17 +4,17 @@ object Kata1_2 {
     }
     
     def main(args: Array[String]) : Unit = {
-        val readInt : () => Int = Console.readInt;
-        var x = 0;
-        var y = 0;
-        var z = 0;
-        x = readInt();
-        y = readInt();
-        z = readInt(); 
-        printf("average= %6.3f\n", average(x, y, z) );
+        val readInt : () => Int = Console.readInt
+        var x = 0
+        var y = 0
+        var z = 0
+        x = readInt()
+        y = readInt()
+        z = readInt() 
+        printf("average= %6.3f\n", average(x, y, z) )
     }
     
     def main() : Unit = {
-        main(Array());
+        main(Array())
     }
 }
