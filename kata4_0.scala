@@ -1,22 +1,22 @@
 object Kata4_0 {
 
-    def fib(n : Int) : BigInt = {
-        if (n==0) {
-            BigInt(0)
+    def makeFib() : () => BigInt = {
+        var a = BigInt(0)
+        var b = BigInt(1)
+        def innerFib() : BigInt = {
+            var t = a
+            a = b
+            b = a + t
+            a
         }
-        else if (n==1) {
-            BigInt(1)
-        }
-        else {
-            fib(n-1) + fib(n-2)
-        }
+        innerFib
     }
     
     def main(args: Array[String]) : Unit = {
-        println(fib(0))
-        println(fib(1))
-        println(fib(2))
-        println(fib(3))
-        println(fib(4))   
+        var fib = makeFib()
+        for (i <- 0 to 48) {
+            fib()
+        }
+        printf("%,d\n", fib()) // 50th Fibonacci number
     }
 }
